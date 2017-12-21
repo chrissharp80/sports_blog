@@ -1,0 +1,34 @@
+{
+  "name": "sports_blog",
+  "version": "1.0.0",
+  "description": "Simple Sports Blog App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrissharp80/sports_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrissharp80/sports_blog/issues"
+  },
+  "homepage": "https://github.com/chrissharp80/sports_blog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.20.1",
+    "mongoose": "^4.13.7",
+    "nodemon": "^1.14.1",
+    "pug": "^2.0.0-rc.4"
+  }
+}
